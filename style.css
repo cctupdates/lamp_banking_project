@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    /* this is the shortcut for above 3 lines   */
+    /* font: 15px/1.5 Arial, Helvetica, sans-serif; */
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+/* Global  */
+.container{
+    margin:auto;
+    width:80%; 
+    /* overflow hidden hides the content which are too big to fit */
+    overflow:hidden;
+     
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+    height:38px;
+    background:#e8491d;
+    color:#ffffff;
+    padding-left: 20px;
+    padding-right:20px;
+    border:none;
+}
+/* Header  */
+header{
+    background:#35424a;
+    color:#ffffff; 
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+/* ul has their padding itself which we don't want  */
+
+
+
+header li{
+    float:left;
+    display:inline;
+    padding :0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+#showcase{
+    
+    min-height:400px;
+    background:url('https://www.freepik.com/redirect?url=aHR0cHM6Ly9jbGsudHJhZGVkb3VibGVyLmNvbS9jbGljaz9wPTMwNDYwOCZhPTMxNDQ0NTImZz0yNDczNzQ3NCZlcGk9bm4mdXJsPWh0dHBzJTNBJTJGJTJGc3RvY2suYWRvYmUuY29tJTJGaW1hZ2VzJTJGaWQlMkYzMzA1ODgyNDclM0Zhc19jYW1wYWlnbiUzREZyZWVwaWslMjZhc19jb250ZW50JTNEYXBpJTI2YXNfYXVkaWVuY2UlM0Q0MDQ=') no-repeat 0 -300px;
+    background-size: cover;
+    text-align: center;
+    columns: #000000;;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size:20px;
+}
+
+/* #boxes{
+    margin-top:10px;
+} */
+#boxes .box img{
+    position: relative;
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+}
+
+#boxes .box{
+    float:left;
+
+    width:30%;
+    text-align:center;
+    padding:20px;
+}
+
